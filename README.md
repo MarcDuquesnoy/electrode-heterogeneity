@@ -2,7 +2,13 @@
 
 Electrode Heterogeneity
 =========================================================
-H
+This repository contains necessary resources for the analysis of heterogeneity 
+on coated electrodes through Machine Learning processing.
+There are 2 specific code files :
+- __definition.R__ : code developed under R language to perform the 
+  Principal Component Analysis and K-Means clustering for defining heterogeneity.
+- __main.py__ : code developed under Python to train classifier for predicting the
+  impact of manufacturing parameters.
 
 Setup
 ==========================================================
@@ -20,7 +26,7 @@ Marc DUQUESNOY , PhD
 
 Contributing
 =============================================================
-Pull requests are allowednot allowed.
+Pull requests are not allowed.
 
 License
 ==============================================================
