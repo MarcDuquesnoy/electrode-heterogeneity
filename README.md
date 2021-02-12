@@ -3,7 +3,7 @@
 Electrode Heterogeneity
 =========================================================
 This repository contains necessary resources for the analysis of heterogeneity 
-on coated electrodes through Machine Learning processing.
+on coated NMC811 electrodes through Machine Learning.
 There are 2 specific code files :
 - __definition.R__ : code developed under R language to perform the 
   Principal Component Analysis and K-Means clustering for defining heterogeneity.
@@ -17,12 +17,15 @@ In the case you need to launch Python codes inside the repository, we ask you to
 You can directly download repositories through the '.zip'. Therefore, it is possible to clone the project on your desktop in order interract with contributors, by uploading your own files. Open a Git bash and try :
 
 ```
-git clone https://github.com/MarcDuquesnoy/ManufacturingOptimization.git
+git clone https://github.com/MarcDuquesnoy/electrode-heterogeneity.git
 ```
 
 Authors
 ============================================================
-Marc DUQUESNOY , PhD
+  - **Marc DUQUESNOY**
+  - **Elixabete Ayerbe**
+  - **Iker Boyano**
+  - **Alejandro A. Franco**
 
 Contributing
 =============================================================
@@ -35,5 +38,5 @@ This project is licensed under the [GNU Public License](https://www.gnu.org/lice
 
 Contributors
 ==============================================================
-@MarcDuquesnoy,
- 
+  - **Larraitz Ganborena**
+  - **Pablo Cereijo**
