@@ -30,12 +30,13 @@ plot.PCA(res, axes = c(1, 2), choix = "var", new.plot = TRUE, col.var = "black",
 
 
 ### Clustering analysis
+### The associated code corresponds to the boxplot comparison. YOu must change the variables in order to compare different degrees of variation.
 Z = res.hcpc$data.clust
 boxplot(Z$σ..mg.cm2. ~ Z$clust)
 boxplot(Z$σ..μm. ~ Z$clust)
 
-### For the statistical comparison, use the function kruskal.test() to analyze what it is necessary.
-
+### For the statistical comparison, use the function kruskal.test() to analyze clusters and degrees of variation.
+kruskal.test(σ..mg.cm2. ~ clust, data = Z)
 
 ### Export the resulting Dataset
 write.csv(Z, file="path/to/store/heterogeneity/definition.csv", sep=";")
